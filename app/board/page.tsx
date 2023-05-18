@@ -1,5 +1,5 @@
 "use client";
-import Click from "../../styles/atoms/click";
+import Btn from "../../styles/atoms/button";
 
 async function getData() {
   const res = await fetch(
@@ -18,7 +18,7 @@ export default async function board() {
   return (
     <div>
       <div>공지사항</div>
-      <Click color="pink">click</Click>
+      <Btn color="pink">click</Btn>
       <div>
         {data.boards.map((board: any) => (
           <div key={board.board_no}>

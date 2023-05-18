@@ -17,6 +17,7 @@
     "plugins": [
       {
         "name": "next"
+        // "plugins": ["babel-plugin-styled-components"]
       }
     ],
     "paths": {
